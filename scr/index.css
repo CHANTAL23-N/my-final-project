@@ -2,6 +2,23 @@ body {
   background-color: #f9f7fe;
   font-family: "Signika Negative", system-ui;
 }
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+footer {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+a {
+  color: #885df1;
+}
+main {
+  padding: 30px 0;
+}
 .weatherApp {
   background-color: white;
   max-width: 550px;
@@ -9,4 +26,55 @@ body {
   padding: 30px;
   box-shadow: 0 40px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
+}
+.searchInput {
+  background-color: #f9f7fe;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+}
+.searchButton {
+  background-color: #885df1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.weatherMain {
+  display: flex;
+  justify-content: space-between;
+}
+.weatherCity {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+.weatherConditions {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.weatherConditions strong {
+  color: #f65282;
+}
+.weatherTemperature {
+  display: flex;
+}
+.temperature {
+  font-size: 80px;
+  font-weight: bold;
+}
+.temperatureEmoji {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-top: 25px;
+}
+.temperatureUnit {
+  margin-top: 28px;
+  font-size: 20px;
 }
