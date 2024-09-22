@@ -69,10 +69,10 @@ main {
   font-weight: bold;
 }
 .temperatureEmoji {
-  font-size: 30px;
+  width: 70px;
   font-weight: bold;
   margin-left: 10px;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .temperatureUnit {
   margin-top: 28px;
