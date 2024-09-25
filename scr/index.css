@@ -92,9 +92,9 @@ main {
   margin-bottom: 15px;
 }
 .weather-forecast-icon {
-  font-size: 30px;
   text-align: center;
   margin-bottom: 15px;
+  width: 80px;
 }
 .weather-forecast-temperature {
   color: #f65282;
